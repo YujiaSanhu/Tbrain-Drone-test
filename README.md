@@ -40,3 +40,8 @@ def parse_opt():
     parser.add_argument('--iou-thres', type=float, default=0.35, help='NMS IoU threshold')    #IoU設為0.35
     parser.add_argument('--max-det', type=int, default=1000, help='maximum detections per image')   #最大偵測張數
  ```
+ 
+ ### 3.偵測辨識圖檔
+ 
+ 至路徑...\Drone_yolov5\runs\detect，第一次執行檔名為exp，第二次為exp2...
+ 開啟對應資料夾後即可讀取圖檔。
