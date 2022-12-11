@@ -15,7 +15,7 @@
 
 ### 1.下載檔案和模型
 
-先到Google雲端(https://drive.google.com/file/d/1fEzqibY4f4cPhFUk-V3eVRywVwaG8esJ/view?usp=share_link)下載模型，之後下載github內的檔案後再將模型移入。
+先到[Google雲端](https://drive.google.com/file/d/1fEzqibY4f4cPhFUk-V3eVRywVwaG8esJ/view?usp=share_link)下載模型，之後下載github內的檔案後再將模型移入。
 
 #### 2.影像偵測辨識`detect.py`
 
