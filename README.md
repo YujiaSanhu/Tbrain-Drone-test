@@ -7,10 +7,14 @@
 
 ```
 # python3.9
-# torch==1.13.0
-# torchvision==0.14.0
+# Pytorch
 
-安裝完python及pytorch後即可使用
+# git clone yolo v5 repo
+git clone https://github.com/ultralytics/yolov5 # clone repo
+# 安裝必要的Pytorch套件
+pip install -r requirements.txt
+
+安裝完Python及Pytorch後即可使用
 ```
 
 ### 1.下載檔案和模型
