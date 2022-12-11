@@ -24,7 +24,7 @@
  ```python
 def parse_opt():
     ...
-    將從雲端上下載的訓練完的模型安裝到指定路徑後，調整裡面參數進行辨識。
+    將從雲端上下載的訓練完的模型安裝到指定路徑後，使用預設參數即可進行辨識。
     ...
     
     parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'R_4_2_x.pt', help='model path or triton URL')   #預設模型名稱為「R_4_2_x.pt」
