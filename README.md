@@ -45,3 +45,16 @@ def parse_opt():
  
  至路徑...\Drone_yolov5\runs\detect，第一次執行檔名為exp，第二次為exp2...
  開啟對應資料夾後即可讀取圖檔。
+ 
+  ### 4.辨識結果文檔（.csv檔）
+  
+  偵測辨識完畢後會將結果csv文檔輸出至...\Drone_yolov5路徑下，檔名預設為R_5_3_test.csv。
+  
+ ```python
+  ...
+  detect.py檔名設定
+  ...
+  
+  df.to_csv('R_5_3_test.csv', header=None, index=False)  #預設csv檔名為R_5_3_test.csv
+  
+ ```
